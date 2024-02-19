@@ -18,7 +18,7 @@ import Session from "supertokens-auth-react/recipe/session";
 SuperTokens.init({
     appInfo: {
         appName: "Muezzyn",
-        apiDomain: "http://localhost:3000",
+        apiDomain: "https://staging.api.muezzyn.com",
         websiteDomain: "https://auth.muezzyn.com",
         apiBasePath: "/auth",
         websiteBasePath: "/"
