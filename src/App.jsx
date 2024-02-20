@@ -19,9 +19,9 @@ SuperTokens.init({
     appInfo: {
         appName: "Muezzyn",
         apiDomain: "https://staging.api.muezzyn.com",
-        websiteDomain: "https://auth.muezzyn.com",
+        websiteDomain: "https://mz-test.vercel.app",
         apiBasePath: "/auth",
-        websiteBasePath: "/"
+        websiteBasePath: "/auth"
     },
     recipeList: [
         ThirdPartyPasswordless.init({
